@@ -21,3 +21,16 @@ code {
 .link:hover{
   color: lightslategray;
 }
+
+.signup-form{
+  width:500px;
+  margin:30px auto 0;
+  padding:30px;
+  border:1px solid darkcyan;
+}
+
+.alert{
+  position: absolute;
+  width:300px;
+}
+
