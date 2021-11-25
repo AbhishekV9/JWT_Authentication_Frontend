@@ -10,7 +10,9 @@ export const Signin = (props) => {
    useEffect(()=>{
     localStorage.setItem('token',"");
     localStorage.setItem("isAuthorized",false);
-   })
+    props.handlesetAuthorization(false);
+   },[props])
+   
     const [email, setemail] = useState("");
     const [password, setpassword] = useState("");
     const [ShowAlert, setShowAlert] = useState(false);

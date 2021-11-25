@@ -20,7 +20,8 @@ export const Signup = (props) => {
     useEffect(()=>{
         localStorage.setItem('token',"");
         localStorage.setItem("isAuthorized",false);
-       })
+        props.handlesetAuthorization(false);   
+       },[props])
 
     const handleSubmit=(e)=>{
         e.preventDefault();
@@ -39,8 +40,7 @@ export const Signup = (props) => {
             setconfirmpassword("")
             return;
         }
-        console.log(name,email,password,confirmpassword)
-        console.log( getFormBody({ name,email,password}))
+        
         fetch(url+"register",{
             method:"POST",
             headers: {
