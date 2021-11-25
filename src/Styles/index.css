@@ -39,3 +39,9 @@ code {
   width:400px;
 }
 
+.log-out{
+  position: absolute;
+  right:10px;
+  top:10px;
+}
+
