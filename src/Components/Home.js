@@ -9,14 +9,15 @@ export const Home = (props) => {
    
     useEffect(() => {
         const token=localStorage.getItem('token');
-        if(token===null){
+        if(token===""){
             navigate('/signin');
             return;
         }
         const config={
             headers:{
-                Authorization: 'Bearer ' + token
+                Authorization: 'Bearer ' + token,
             }
+            
         }
         axios.get(url+'authenticate',config)
         .then(res=>{

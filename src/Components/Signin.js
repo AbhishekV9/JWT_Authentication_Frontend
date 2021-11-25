@@ -26,6 +26,7 @@ export const Signin = (props) => {
                email:email,
                password:password
            }
+           
         }).then(res=>{
             localStorage.setItem('token',res.data.token);
             navigate('/home');
