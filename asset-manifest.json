@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/JWT_Authentication_Frontend/static/css/main.af0da6b4.chunk.css",
+    "main.js": "/JWT_Authentication_Frontend/static/js/main.7ddda509.chunk.js",
+    "main.js.map": "/JWT_Authentication_Frontend/static/js/main.7ddda509.chunk.js.map",
+    "runtime-main.js": "/JWT_Authentication_Frontend/static/js/runtime-main.807d7ee1.js",
+    "runtime-main.js.map": "/JWT_Authentication_Frontend/static/js/runtime-main.807d7ee1.js.map",
+    "static/css/2.383c0125.chunk.css": "/JWT_Authentication_Frontend/static/css/2.383c0125.chunk.css",
+    "static/js/2.d6996214.chunk.js": "/JWT_Authentication_Frontend/static/js/2.d6996214.chunk.js",
+    "static/js/2.d6996214.chunk.js.map": "/JWT_Authentication_Frontend/static/js/2.d6996214.chunk.js.map",
+    "index.html": "/JWT_Authentication_Frontend/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/JWT_Authentication_Frontend/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.af0da6b4.chunk.css.map": "/JWT_Authentication_Frontend/static/css/main.af0da6b4.chunk.css.map",
+    "static/js/2.d6996214.chunk.js.LICENSE.txt": "/JWT_Authentication_Frontend/static/js/2.d6996214.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.807d7ee1.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.d6996214.chunk.js",
+    "static/css/main.af0da6b4.chunk.css",
+    "static/js/main.7ddda509.chunk.js"
+  ]
+}
