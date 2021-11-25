@@ -7,10 +7,6 @@ import { useNavigate } from 'react-router-dom';
 export const Signin = (props) => {
     let navigate = useNavigate();
 
-    if(props.authorized){
-        navigate('/home');
-    }
-    
    useEffect(()=>{
     localStorage.setItem('token',"");
     localStorage.setItem("isAuthorized",false);
@@ -21,6 +17,10 @@ export const Signin = (props) => {
 
     const handleSubmit=(e)=>{
         e.preventDefault();
+        if(email.length===0 || password.length===0){
+            alert("Please fill all the credentials");
+            return;
+        } 
         axios.get(url+"login",{
            params:{
                email:email,

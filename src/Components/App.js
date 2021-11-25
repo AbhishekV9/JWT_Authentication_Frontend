@@ -18,11 +18,11 @@ function App() {
       <Routes>
         <Route
           path='/'
-          element={<Signup authorized={authorization} />}
+          element={<Signup />}
         />
          <Route
           path='/signin'
-          element={<Signin authorized={authorization} />}
+          element={<Signin />}
         />
         <Route
           path="/home"

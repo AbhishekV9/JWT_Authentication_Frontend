@@ -34,7 +34,8 @@ export const Home = (props) => {
     }, [navigate,props])
     return (
         <div>
-            <h1>You are here because you are allowed to </h1>
+            <h1 className="welcome" >Welcome You are authorized now</h1>
+            <img className="happy" src="https://www.introtodigital.com/wp-content/uploads/2020/01/Happy-PC-user.png" alt="happy user"/>
         </div>
     )
 }

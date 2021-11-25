@@ -24,6 +24,10 @@ export const Signup = (props) => {
 
     const handleSubmit=(e)=>{
         e.preventDefault();
+        if(name.length===0 || email.length===0 || password.length===0 || confirmpassword.length===0){
+            alert("Please fill all the credentials");
+            return;
+        }
         if(password!==confirmpassword){
             setShowalert(true);
             setTimeout(() => {

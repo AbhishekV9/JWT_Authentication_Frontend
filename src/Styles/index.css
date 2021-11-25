@@ -45,3 +45,13 @@ code {
   top:10px;
 }
 
+.welcome{
+  margin-top:50px;
+  text-align: center;
+}
+
+.happy{
+  height:450px;
+  width:700px;
+  margin-left: 300px;
+}
